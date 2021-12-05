@@ -1,0 +1,53 @@
+.button--mimas {
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+  font-weight: 700;
+  font-size: 0.85rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  color: #fff;
+  background: #e7e7e7;
+  margin: 1cm;
+  padding: 0.5cm;
+}
+
+.button--mimas span {
+  position: relative;
+  mix-blend-mode: difference;
+  font-size: 20px;
+}
+
+.button--mimas::before {
+  content: "";
+  background: #000;
+  width: 120%;
+  left: -10%;
+  transform: skew(30deg);
+  transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+}
+
+.button--mimas:hover::before {
+  transform: translate3d(100%, 0, 0);
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+ text-align: center;
+}
+
+.header{
+ background-color: #f3f1f1;
+ background: 
+url("./2021-12-05_04-29.png")
+  ;
+  background-size: cover;
+  margin-bottom: 3cm;
+}
+
+
+
