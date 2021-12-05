@@ -1,0 +1,1 @@
+export const newdata =[{DateTime: '2020-05-20-21-48-39', 'Seal Maximum': 26}, {DateTime: '2020-05-21-21-55-44', 'Seal Maximum': 29}, {DateTime: '2020-06-26-22-08-05', 'Seal Maximum': 29}, {DateTime: '2020-06-27-08-11-04', 'Seal Maximum': 30}, {DateTime: '2020-10-12-08-51-46', 'Seal Maximum': 19}]
