@@ -37,13 +37,13 @@ node i
 ```
 ## Running
 
-To run Flask server run:
+To run the Flask server execute:
 
 ```python
 python FlaskServer.py
 ```
 
-To run Node server run:
+To run the Node server execute:
 
 ```javascript
 node start
