@@ -23,7 +23,7 @@ This team project was created during the WildHack2021. The app is purposed to an
 - [x]  Web interface is tied to the local commands
 - [ ]  Trained NN is implemented into the pipeline
 - [ ]  Paths are dynamically written or obtained via the web interface
-- [ ]  App is wrapped into a single file
+- [ ]  App is wrapped into a single file (with a starting script)
 - [ ]  App is optimised and dependency instllation process is automatised
 - [ ]  All bugs are fixed
 
