@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Seal Counter App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This team project was created during the WildHack2021. The app is purposed to analyze incoming photos and to search present seals for further counting and plotting.
 
-## Available Scripts
+### Developers
+- Georgiy Andreev (Front-end developer) - [GitHub](https://github.com/andreevgeorge)
+- Sergey Kitaev (Data scientist) - [GitHub](https://github.com/Sergey-Kit)
+- Natalya Moskovka (Data scientist) - [Telegram](https://t.me/natchandes)
 
-In the project directory, you can run:
+### Table of Contents
 
-### `yarn start`
+* [Roadmap](#roadmap)
+* [Installation](#installation)
+* [Running](#running)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Roadmap
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- [x]  Images are sorted by the days taken
+- [x]  Processed folders are marked
+- [x]  Data is stored into .csv file for history plotting
+- [x]  Plot data .js file is automatically marked up 
+- [x]  Data is visualised with the web interface
+- [x]  Web interface is tied to the local commands
+- [ ]  Trained NN is implemented into the pipeline
+- [ ]  Paths are dynamically written or obtained via the web interface
+- [ ]  App is wrapped into a single file
+- [ ]  App is optimised and dependency instllation process is automatised
+- [ ]  All bugs are fixed
 
-### `yarn test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The application uses both `Flask` and `Node.js` servers to run so check if these components are present. 
 
-### `yarn build`
+To install required JS packages run the following command in the `src` directory:
+```bash
+node i
+```
+## Running
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To run Flask server run:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```python
+python FlaskServer.py
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To run Node server run:
 
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```javascript
+node start
+```
