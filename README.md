@@ -1,6 +1,6 @@
 # Seal Counter App
 
-This team project was created during the WildHack2021. The app is purposed to analyze incoming photos and to search present seals for further counting and plotting.
+This team project created during the WildHack2021. The app is purposed to analyze incoming photos and to search present seals for further counting and plotting.
 
 ### Developers
 - Georgiy Andreev (Front-end developer) - [GitHub](https://github.com/andreevgeorge)
